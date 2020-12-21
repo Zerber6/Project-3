@@ -57,14 +57,7 @@ article {
 section:nth-child(2n+1) {
     background-color: silver;
   }
-
-section:nth-child(-n+3) h2:after {
-    content: 'New';
-    color: red;
-    font-size: small;
-    vertical-align: top;
-}
-
+  
 article a {
     color: rgb(33, 37, 41);
     text-decoration: none;
